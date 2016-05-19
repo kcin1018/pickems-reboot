@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'pickems',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    firebase: 'https://pickems-ff8bc.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
