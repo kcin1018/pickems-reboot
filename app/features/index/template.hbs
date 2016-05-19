@@ -1,0 +1,41 @@
+<div class="index">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h2 class="display-4 text-xs-center text-md-left">Fantasy Pickems</h2>
+            <p class="lead text-xs-center text-md-left">Welcome to the fantasy pickems page. You can sign up to start playing.</p>
+            <hr/>
+            <p class="text-xs-center text-md-left">{{#link-to 'signup' class="btn btn-primary"}}{{fa-icon 'pencil'}} Sign Up{{/link-to}}</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 section">
+                <h4>Who's Playing</h4>
+                <hr/>
+                <ul class="no-style">
+                    <li><strong class="large-stat">10</strong> owners</li>
+                    <li><strong class="large-stat">12</strong> teams</li>
+                    <li><strong class="large-stat">9</strong> paid teams</li>
+                    <li><strong class="large-stat">$90</strong> at stake</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-4 section">
+                <h4>What is this?</h4>
+                <hr/>
+                <p>
+                    This game is a different type of fantasy football game that does not require you to have to select the best possible team for the entire year. You are able to select whoever you want each week.
+                </p>
+                <p>
+                    {{#link-to 'rules' class="btn btn-primary"}}
+                        {{fa-icon 'list-ol'}} Rules
+                    {{/link-to}}
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h4>Contact Us</h4>
+                <hr/>
+                <a class="btn btn-primary" target="_new" href="{{config.contactUrl}}">{{fa-icon 'facebook'}} Facebook Page</a>
+            </div>
+        </div>
+    </div>
+</div>
