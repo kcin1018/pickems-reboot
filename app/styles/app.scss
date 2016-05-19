@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'bower_components/bootstrap/scss/bootstrap';
+@import 'features';
+
+body {
+    background-color: darken($white, 5%);
+}
+
+input {
+    background-color: darken($white, 2%) !important;
+}
+
+.content {
+    padding-top: 4.4rem;
+    padding-bottom: 5rem;
+    min-height: 20rem;
+}

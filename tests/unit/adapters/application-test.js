@@ -7,6 +7,14 @@ moduleFor('adapter:application', 'Unit | Adapter | application', {
 
 // Replace this with your real tests.
 test('it exists', function(assert) {
-  let adapter = this.subject();
+  let mockOptions = {
+    firebase: {
+      ref() {
+        return 'just testing';
+      }
+    }
+  };
+
+  let adapter = this.subject(mockOptions);
   assert.ok(adapter);
 });
