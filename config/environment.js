@@ -8,6 +8,7 @@ module.exports = function(environment) {
     // contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
     firebase: 'https://pickems-ff8bc.firebaseio.com/',
     baseURL: '/',
+    nflYear: 2016,
     contactUrl: 'https://www.facebook.com/groups/FantasyPickems/',
     paypalEmail: 'rimlerm@gmail.com',
     locationType: 'auto',
