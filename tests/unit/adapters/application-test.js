@@ -10,7 +10,7 @@ test('it exists', function(assert) {
   let mockOptions = {
     firebase: {
       ref() {
-        return 'just testing'
+        return 'just testing';
       }
     }
   };
